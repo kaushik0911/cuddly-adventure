@@ -1,0 +1,11 @@
+[project]
+name = "cuddly-adventure"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "ipython>=9.15.0",
+    "weaviate-client<4.0.0",
+]
